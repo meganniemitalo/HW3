@@ -1,0 +1,40 @@
+Check check1 = new Check(15);
+check1.writeCheckNumber(1);
+check1.writePayee("Tattered Cover");
+check1.writeReason("book");
+Check check2 = new Check(50);
+check2.writeCheckNumber(2);
+check2.writePayee("Whole Foods");
+check2.writeReason("groceries");
+Check check3 = new Check(5);
+check3.writeCheckNumber(3);
+check3.writePayee("The Market");
+check3.writeReason("latte");
+Check check4 = new Check(150);
+check4.writeCheckNumber(4);
+check4.writePayee("MSU Bookstore");
+check4.writeReason("textbooks");
+Check check5 = new Check(25);
+check5.writeCheckNumber(5);
+check5.writePayee("City O City");
+check5.writeReason("dinner");
+check1.printCheck();
+Megan Niemitalo                       1
+Pay to the order of Tattered Cover $15
+For book
+check2.printCheck();
+Megan Niemitalo                       2
+Pay to the order of Whole Foods $50
+For groceries
+check3.printCheck();
+Megan Niemitalo                       3
+Pay to the order of The Market $5
+For latte
+check4.printCheck();
+Megan Niemitalo                       4
+Pay to the order of MSU Bookstore $150
+For textbooks
+check5.printCheck();
+Megan Niemitalo                       5
+Pay to the order of City O City $25
+For dinner
